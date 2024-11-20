@@ -1,6 +1,6 @@
 # 2023 Pennsylvania Crash Data
 
-El Departament de Transports de la mancomunitat de Pensilvània (PennDOT) recopila dades sobre accidents de trànsit a tot l'estat. Aquestes dades inclouen informació sobre la ubicació, el nombre de vehicles involucrats, el nombre de persones ferides i el nombre de persones mortes. Aquesta visualització mostra tots els accidents de trànsit ocorreguts a Pensilvània durant l'any 2023, fent servir la longitud i la latitud de l'event per a donar un context geogràfic al conjunt de les dades.
+El Departament de Transports de la mancomunitat de Pensilvània (PennDOT) recopila dades sobre accidents de trànsit a tot l'estat. Aquestes dades inclouen informació sobre la ubicació, el nombre de vehicles involucrats, el nombre de persones ferides i el nombre de persones mortes. Aquesta visualització mostra tots els accidents de trànsit ocorreguts a Pensilvània durant l'any 2023 (més de 110&nbsp;000), fent servir la longitud i la latitud de l'event per a donar un context geogràfic al conjunt de les dades.
 
 ## Visualització
 
