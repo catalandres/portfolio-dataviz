@@ -6,7 +6,7 @@ toc: false
   <h1>Visualització de Dades</h1>
 </div>
 
-## En quant a aquest portfoli
+## En quant a aquest dossier
 
 Us presentem un estudi de tres visualitzacions interactives de dades, produïdes per Andrés Catalán Cárdenas amb [Observable Framework](https://observablehq.com/framework/) i [D3](https://d3js.org/) per a l'assignatura Visualització de Dades dels màsters universitaris en Enginyeria Informàtica i Ciència de Dades de la Universitat Oberta de Catalunya.
 
