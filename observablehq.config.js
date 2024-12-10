@@ -14,6 +14,16 @@ export default {
         {name: "Sunburst", path: "/sunburst"},
         {name: "Ridgeline", path: "/ridgeline"},
       ]
+    },
+    {
+      name: "PAC3: Hotels",
+      pages: [
+        {name: "Escenari", path: "/hotels-escenari"},
+        {name: "Durada de l'estada", path: "/hotels-durada"},
+        {name: "Volum d'arribades", path: "/hotels-arribades"},
+        {name: "Tarifa mitjana diària", path: "/hotels-tarifes"},
+        {name: "Reserves fallides", path: "/hotels-fallides"},
+      ]
     }
   ],
 

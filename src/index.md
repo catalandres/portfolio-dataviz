@@ -24,6 +24,14 @@ Us presentem un estudi de tres visualitzacions interactives de dades, produïdes
   </div>
 </div>
 
+## Narrativa
+
+<div class="grid grid-cols-3">
+  <div class="card">
+    <a href="./hotels.html"><h2>Hotels` </h2></a>
+  </div>
+</div>
+
 <style>
 
 .hero {
