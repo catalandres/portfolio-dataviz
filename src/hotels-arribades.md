@@ -90,7 +90,7 @@ const timeHistogram = Object.entries(frequencyTable).map(([date, hotels]) => {
             })
         ]
     }))}
-
+  <div><p>Les arribades a l’hotel urbà són <b>regularment freqüents</b>. Poden aprofitar aquesta regularitat per planificar torns i inventari amb més precisió.</p></div>
   </div>
   <div class="card">
     ${resize((width) => Plot.plot({
@@ -112,8 +112,6 @@ const timeHistogram = Object.entries(frequencyTable).map(([date, hotels]) => {
             })
         ]
     }))}
+    <div><p>El resort concentra les arribades al voltant dels <b>caps de setmana</b>, amb major volum a la <b>primavera</b> i a la <b>tardor</b>.</p><p>A l'estiu, el nivell més baix d'arribades es juxtaposa amb una durada mitjana de l'estada més llarga.</p></div>
   </div>
 </div>
-
-- Les arribades a l’hotel urbà són regularment freqüents. Poden aprofitar aquesta regularitat per planificar torns i inventari amb més precisió.
-- El _resort_ concentra les arribades al voltant dels caps de setmana, amb major volum a la primavera i a la tardor. A l'estiu, el nivell més baix d'arribades es juxtaposa amb una durada mitjana de l'estada més llarga.

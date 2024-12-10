@@ -93,6 +93,7 @@ const timeHistogram = Object.entries(frequencyTable).map(([date, hotels]) => {
             })
         ]
     }))}
+    <div><p>L’hotel urbà, amb <b>tarifes més estables</b>, pot centrar-se a optimitzar marges i adreçar-se a la clientela corporativa i de negocis.</p></div>
   </div>
   <div class="card">
     ${resize((width) => Plot.plot({
@@ -114,8 +115,6 @@ const timeHistogram = Object.entries(frequencyTable).map(([date, hotels]) => {
             })
         ]
     }))}
+    <div><p>El resort, sotmès a <b>fortes estacionalitats</b>, ha de maximitzar ingressos aprofitant la gran demanda en períodes punta i ajustant preus de manera intel·ligent a la baixa en temporades més fluixes.</p></div>
   </div>
 </div>
-
-- L’hotel urbà, amb tarifes més estables, pot centrar-se a optimitzar marges i adreçar-se a la clientela corporativa i de negocis.
-- El _resort_, sotmès a fortes estacionalitats, ha de maximitzar ingressos aprofitant la gran demanda en períodes punta i ajustant preus de manera intel·ligent a la baixa en temporades més fluixes.

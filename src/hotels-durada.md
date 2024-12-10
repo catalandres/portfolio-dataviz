@@ -90,6 +90,7 @@ const timeHistogram = Object.entries(frequencyTable).map(([date, hotels]) => {
             })
         ]
     }))}
+    <div><p>A l'hotel urbà, la durada mitjana de l'estada és més <b>estable</b>, amb una mitjana més <b>baixa</b>, associada a un públic més transitori i de negocis.</p></div>
   </div>
   <div class="card">
     ${resize((width) => Plot.plot({
@@ -111,8 +112,7 @@ const timeHistogram = Object.entries(frequencyTable).map(([date, hotels]) => {
             })
         ]
     }))}
+    <div>
+    <p>A l'hotel de resort les estades són més <b>llargues</b>, amb una <b>major variabilitat</b>, lligada a la clientela de lleure i la temporada estival.npm</p></div>
   </div>
 </div>
-
-- A l'hotel de _resort_ les estades són més llargues, i la variabilitat és més gran, lligada a la clientela de lleure i la temporada estival.
-- A l'hotel urbà, la durada mitjana de l'estada és més estable, amb una mitjana més baixa, associada a un públic més transitori i de negocis.

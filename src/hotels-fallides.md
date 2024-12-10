@@ -91,6 +91,7 @@ const timeHistogram = Object.entries(frequencyTable).map(([date, hotels]) => {
             })
         ]
     }))}
+    <div><p>L'hotel urbà pateix <b>més cancel·lacions i <em>no-shows</em></b> com a percentatge del total de reserves.</p></div>
   </div>
   <div class="card">
     ${resize((width) => Plot.plot({
@@ -112,9 +113,6 @@ const timeHistogram = Object.entries(frequencyTable).map(([date, hotels]) => {
             })
         ]
     }))}
+  <div><p>Per al <em>resort</em>, <b>una reserva fallida és més significativa</b>, ja que suposa una pèrdua d'ingressos major: un número de nits més alt a una tarifa més alta.</p><p>Observem una major incidència de reserves fallides al voltant de l'estiu.</p></div>
   </div>
 </div>
-
-- Les cancel·lacions i els _no-shows_ erosionen els marges dels hotels.
-- L'hotel urbà pateix més cancel·lacions i _no-shows_ com a percentatge del total de reserves.
-- Per al _resort_, una reserva fallida és més significativa, ja que suposa una pèrdua d'ingressos major: un número de nits més alt a una tarifa més alta.
