@@ -16,7 +16,7 @@ export default {
       ]
     },
     {
-      name: "PAC3: Hotels",
+      name: "PAC3: OptiReserve GTM",
       pages: [
         {name: "Escenari", path: "/hotels-escenari"},
         {name: "Durada de l'estada", path: "/hotels-durada"},
@@ -36,14 +36,14 @@ export default {
   // Some additional configuration options and their defaults:
   // theme: "default", // try "light", "dark", "slate", etc.
   // header: "", // what to show in the header (HTML)
-  // footer: "Built with Observable.", // what to show in the footer (HTML)
+  footer: "Fet amb Observable.", // what to show in the footer (HTML)
   // sidebar: true, // whether to show the sidebar
-  // toc: true, // whether to show the table of contents
+  toc: false, // whether to show the table of contents
   // pager: true, // whether to show previous & next links in the footer
   // output: "dist", // path to the output root for build
   // search: true, // activate search
   // linkify: true, // convert URLs in Markdown to links
-  // typographer: false, // smart quotes and other typographic improvements
+  typographer: true, // smart quotes and other typographic improvements
   // preserveExtension: false, // drop .html from URLs
   // preserveIndex: false, // drop /index from URLs
 };

@@ -3,7 +3,7 @@ theme: "dashboard"
 toc.show: false
 ---
 
-# Hotels
+# OptiReserve GTM
 
 ```js
 import { DateTime } from "luxon";
