@@ -82,12 +82,28 @@ const countyAverages = Object.entries(
       ? data.charter.weightedSum / data.charter.totalStudents 
       : null,
     difference: 
-      data.public.totalStudents > 0 && data.charter.totalStudents > 0
+      data.public.totalStudents > 0 && data.charter.totalStudents > 0 && (data.charter.weightedSum / data.charter.totalStudents) >= 1
         ? (data.charter.weightedSum / data.charter.totalStudents) - 
           (data.public.weightedSum / data.public.totalStudents)
         : null
   }
 }), {});
+```
+
+```js
+function sparkbar(max) {
+  return (x) => htl.html`<div style="
+    background: var(--theme-yellow);
+    color: black;
+    font: 10px/1.6 var(--sans-serif);
+    width: ${100 * x / max}%;
+    float: right;
+    padding-right: 3px;
+    box-sizing: border-box;
+    overflow: visible;
+    display: flex;
+    justify-content: end;">${x.toLocaleString("en-US")}`
+}
 ```
 
 <div class="grid grid-cols-2 card">
@@ -166,7 +182,7 @@ Plot.plot({
     scheme: "Spectral",
     legend: true,
     label: "Diferencial de nota mitjana",
-    domain: [-3, 3],
+    domain: [-1.5, 1.5],
     unknown: "#eee"
   },
   marks: [
@@ -196,3 +212,33 @@ Plot.plot({
 </div>
 </div>
 
+<div class="grid grid-cols-2 card">
+
+${Inputs.table(
+    Object.entries(countyAverages).map(([key, value]) => ({
+      county: key,
+      total: value.total,
+      public: value.public,
+      charter: value.charter >= 1 ? value.charter : null,
+      difference: value.difference
+    })),
+    {
+        select: false,
+        header: {
+            county: "Comtat",
+            total: "Nota mitjana",
+            public: "Escoles públiques",
+            charter: "Escoles concertades",
+            difference: "Diferencial"
+        },
+        width: 1024,
+        format: {
+            total: sparkbar(d3.max(Object.values(countyAverages).map(d => d.total))),
+            public: sparkbar(d3.max(Object.values(countyAverages).map(d => d.public))),
+            charter: sparkbar(d3.max(Object.values(countyAverages).map(d => d.charter)))
+        },
+        layout: "auto"
+    }
+)}
+
+</div>

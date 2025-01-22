@@ -148,8 +148,7 @@ ${Inputs.table(
             charter: sparkbar(d3.max(countyRanking, d => d.charter)),
             pct: sparkbar(d3.max(countyRanking, d => d.pct)),
         },
-        layout: "fixed",
-        rows: 25
+        layout: "fixed"
     }
 )}
 
