@@ -136,10 +136,11 @@ Plot.plot({
  },
  marks: [
    Plot.dot(Array.from(schoolStats.values()).filter(d => d.avgScore >= 1).sort((a, b) => a.type === 'charter' ? 1 : -1), {
-     x: d => (Math.floor(Math.min(99.99, d.pctWhite) / 10) * 10) + (d.type === 'charter' ? 7 : 3) + d3.randomUniform(-1, 1)(),
+     x: d => (Math.floor(Math.min(99.99, d.pctWhite) / 10) * 10) + (d.type === 'charter' ? 6.1 : 3.9) + d3.randomUniform(-1, 1)(),
      y: d => d.avgScore,
      fill: d => d.type === 'charter' ? '#ff4f00' : '#00b0ff',
      r: 3,
+     opacity: 0.75,
      title: d => `${d.name}\n${d.county}\nScore: ${(d.scoreSum/d.totalStudents).toFixed(2)}\nWhite: ${d.pctWhite.toFixed(1)}%`
    })
  ],
