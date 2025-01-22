@@ -8,7 +8,7 @@ toc: false
 
 ## En quant a aquest dossier
 
-Us presentem un estudi de tres visualitzacions interactives de dades, produïdes per Andrés Catalán Cárdenas amb [Observable Framework](https://observablehq.com/framework/) i [D3](https://d3js.org/) per a l'assignatura Visualització de Dades dels màsters universitaris en Enginyeria Informàtica i Ciència de Dades de la Universitat Oberta de Catalunya.
+Us presentem un estudi de diferents visualitzacions interactives de dades, produïdes per Andrés Catalán Cárdenas amb [Observable Framework](https://observablehq.com/framework/) i [D3](https://d3js.org/) per a l'assignatura Visualització de Dades dels màsters universitaris en Enginyeria Informàtica i Ciència de Dades de la [Universitat Oberta de Catalunya](https://uoc.edu).
 
 ## Visualitzacions
 
@@ -28,9 +28,18 @@ Us presentem un estudi de tres visualitzacions interactives de dades, produïdes
 
 <div class="grid grid-cols-3">
   <div class="card">
-    <a href="./hotels.html"><h2>Hotels` </h2></a>
+    <a href="./hotels.html"><h2>Hotels</h2></a>
   </div>
 </div>
+
+## Pràctica
+
+<div class="grid grid-cols-3">
+  <div class="card">
+    <a href="./hotels.html"><h2>PSSA 2024</h2></a>
+  </div>
+</div>
+
 
 <style>
 
