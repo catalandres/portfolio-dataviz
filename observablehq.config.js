@@ -24,6 +24,14 @@ export default {
         {name: "Tarifa mitjana diària", path: "/hotels-tarifes"},
         {name: "Reserves fallides", path: "/hotels-fallides"},
       ]
+    },
+    {
+      name: "Pràctica: PSSA 2024",
+      pages: [
+        {name: "Escoles concertades", path: "/pssa-escoles-concertades"},
+        {name: "Notes mitjanes", path: "/pssa-notes-mitjanes"},
+        {name: "Comtats i extracció racial", path: "/pssa-comtats-racial"},
+      ]
     }
   ],
 
