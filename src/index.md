@@ -28,7 +28,7 @@ Us presentem un estudi de diferents visualitzacions interactives de dades, produ
 
 <div class="grid grid-cols-3">
   <div class="card">
-    <a href="./hotels.html"><h2>Hotels</h2></a>
+    <a href="./hotels-escenari"><h2>Hotels</h2></a>
   </div>
 </div>
 
@@ -36,7 +36,7 @@ Us presentem un estudi de diferents visualitzacions interactives de dades, produ
 
 <div class="grid grid-cols-3">
   <div class="card">
-    <a href="./hotels.html"><h2>PSSA 2024</h2></a>
+    <a href="./pssa-escoles-concertades.html"><h2>PSSA 2024</h2></a>
   </div>
 </div>
 
